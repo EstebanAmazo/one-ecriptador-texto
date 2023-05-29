@@ -57,7 +57,7 @@
 
   // Función para evaluar caracteres especiales
   function containsSpecialChars(str) {
-    const specialChars = /[`!@#$%^&*()_+sáéíóúÁÉÍÓÚ\-=\[\]{};':"\\|,.<>\/?~]/;
+    const specialChars = /[`!@#$%^&*()_+áéíóúÁÉÍÓÚ\-=\[\]{};':"\\|,.<>\/?~]/;
     return specialChars.test(str);
   }
 
