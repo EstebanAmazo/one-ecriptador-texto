@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+    <h1 class="title">Encriptador de texto</h1>
+
+
+
+    <div class="container">
+
+        <div class="ec-dc-container">
+            <div class="form-group">
+                <label for="encrypt">Encriptar</label>
+                <textarea type="text" id="encryptInput" required placeholder="El texto que quieres encriptar"></textarea>
+                <button id="encryptBtn">Encriptar</button>
+            </div>
+
+            <div class="">
+                <h2>Texto Encriptado</h2>
+                <div class="ec-dc-result">
+                    <p class="encryptedText"></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ec-dc-container">
+            <div class="form-group">
+                <label for="decrypt">Desencriptar</label>
+                <textarea type="text" id="decryptInput" required placeholder="El texto que quieres desencriptar"></textarea>
+                <button id="decryptBtn">Desencriptar</button>
+            </div>
+
+            <div class="">
+                <h2>Texto Desencriptado</h2>
+                <div class="ec-dc-result">
+
+                    <p class="decryptedText"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer> Elaborado por Brayan Esteban Amazo</footer>
+</body>
+
+
+
+</html>
